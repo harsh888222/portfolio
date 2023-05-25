@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="Viewport" content="Width=device-width, initial-scale=1.0">
+<title>personal portfolio website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/86e1117384.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Angry-Hanuman-Wallpaper-Pics.jpg" alt="logo" height="200" width="250">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text" onclick="openmenu()">
+            <p>UI/UX Designer</p>
+            <h1>Hi,i'm <span> kevin </span><br> jen from australia</h1>
+        </div>
+    </div>
+</div>
+<!------------------------------------about------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Lord-Hanuman-Angry-Look-HD-Photos.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni iusto ipsa, 
+                    beatae facilis omnis natus earum aperiam eos illum vitae optio, dolorum totam nisi 
+                    pariatur harum at, dolores blanditiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae blanditiis quo odio cupiditate? Cum ipsum, sunt ipsa illum mollitia a enim veniam,
+                     possimus repellat recusandae laborum. Reiciendis, ullam. Maiores, deleniti!</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>designing webapp interfaces</li>
+                            <li><span>web development</span><br> webapp development</li>
+                            <li><span>APP development</span><br> Building android/ios apps</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design training at ET institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at Star LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin digital Ltd.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design training at ET institute</li>
+                            <li><span>2016</span><br> MBA from MIT Banglore</li>
+                            <li><span>2014</span><br> BBA from ISM Banglore</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------services---------------------------->
+
+<div id="services">
+    <div class="container">
+        
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione obcaecati eligendi.
+                     Doloribus delectus officia quibusdam at quaerat? Molestiae minima 
+                    magnam dolor, excepturi dolorum laboriosam odit repellat asperiores eligendi est?</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione obcaecati eligendi.
+                     Doloribus delectus officia quibusdam at quaerat? Molestiae minima 
+                    magnam dolor, excepturi dolorum laboriosam odit repellat asperiores eligendi est?</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione obcaecati eligendi.
+                     Doloribus delectus officia quibusdam at quaerat? Molestiae minima 
+                    magnam dolor, excepturi dolorum laboriosam odit repellat asperiores eligendi est?</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------portfolio--------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/images.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elita
+                         periam, modi minus nihil sapiente ratione dicta eius 
+                         rerum nostrum harum nulla ad cumque officia voluptatibus labore?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/images.jpg" alt="">
+                <div class="layer">
+                    <h3>music App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elita
+                         periam, modi minus nihil sapiente ratione dicta eius 
+                         rerum nostrum harum nulla ad cumque officia voluptatibus labore?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/images.jpg" alt="">
+                <div class="layer">
+                    <h3>shoping App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elita
+                         periam, modi minus nihil sapiente ratione dicta eius 
+                         rerum nostrum harum nulla ad cumque officia voluptatibus labore?</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----------------------------------contact-------------------------------->
+
+<div id="contact">
+    <div class="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-duotone fa-envelopes"></i>  hs1457912@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9389725132</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Harsh. just a portfolio website</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
